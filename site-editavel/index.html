@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studio Bela</title>
+<meta name="description" content="Site do salão — 100% editável pelo cliente.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#topo">
+      <span class="brand-mark" id="logo-mark">SB</span>
+      <span class="brand-name" id="brand-name">Studio Bela</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn" id="btn-agendar-header" href="#" target="_blank" rel="noopener">Agendar</a>
+  </div>
+</header>
+
+<section class="hero" id="topo">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow" id="hero-tag">Salão de Beleza</p>
+      <h1 id="hero-titulo">Cuidado que se vê no espelho</h1>
+      <p id="hero-subtitulo">Cortes, coloração e tratamentos sob medida.</p>
+      <a class="btn" id="btn-agendar-hero" href="#" target="_blank" rel="noopener">Agendar horário</a>
+    </div>
+    <div class="hero-media">
+      <img id="hero-imagem" src="" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="sobre" id="sobre">
+  <div class="wrap">
+    <img id="sobre-imagem" src="" alt="">
+    <div>
+      <p class="eyebrow">Nossa história</p>
+      <h2 id="sobre-titulo">Sobre o studio</h2>
+      <p id="sobre-texto"></p>
+    </div>
+  </div>
+</section>
+
+<section class="servicos" id="servicos">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">O que fazemos</p>
+      <h2 id="servicos-titulo">Serviços</h2>
+    </div>
+    <div class="servicos-grid" id="servicos-grid"></div>
+  </div>
+</section>
+
+<section class="galeria-section" id="galeria">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Portfólio</p>
+      <h2 id="galeria-titulo">Nosso trabalho</h2>
+    </div>
+    <div class="galeria-grid" id="galeria-grid"></div>
+  </div>
+</section>
+
+<section class="video-section" id="video-section" style="display:none">
+  <div class="wrap">
+    <div class="section-head" style="margin-left:auto;margin-right:auto;text-align:center">
+      <p class="eyebrow">Vídeo</p>
+      <h2 id="video-titulo">Conheça o studio</h2>
+    </div>
+    <div class="video-frame" id="video-frame"></div>
+  </div>
+</section>
+
+<section class="depoimentos" id="depoimentos">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Depoimentos</p>
+      <h2 id="depoimentos-titulo">O que dizem nossas clientes</h2>
+    </div>
+    <div class="depo-grid" id="depo-grid"></div>
+  </div>
+</section>
+
+<section class="contato" id="contato">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Visite-nos</p>
+      <h2 id="contato-titulo">Venha nos visitar</h2>
+      <ul class="contato-lista" style="margin-top:24px">
+        <li><span>Endereço</span><span id="contato-endereco"></span></li>
+        <li><span>Horário</span><span id="contato-horario"></span></li>
+        <li><span>Telefone</span><span id="contato-telefone"></span></li>
+      </ul>
+    </div>
+    <div class="ticket">
+      <h3>Marque seu horário</h3>
+      <p>Agende online em poucos cliques, sem precisar ligar.</p>
+      <a class="btn" style="background:var(--brass)" id="btn-agendar-ticket" href="#" target="_blank" rel="noopener">Agendar agora</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex;justify-content:space-between;width:100%;align-items:center">
+    <span id="footer-nome">Studio Bela</span>
+    <a id="footer-instagram" href="#" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

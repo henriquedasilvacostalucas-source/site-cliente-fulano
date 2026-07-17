@@ -1,0 +1,56 @@
+{
+  "marca": {
+    "nome": "Studio Bela",
+    "logotipo_texto": "SB",
+    "whatsapp": "5571990000000",
+    "instagram": "https://instagram.com/",
+    "link_agendamento": "https://www.versum.com/"
+  },
+  "hero": {
+    "tag": "Salão de Beleza",
+    "titulo": "Cuidado que se vê no espelho",
+    "subtitulo": "Cortes, coloração e tratamentos feitos sob medida para você, no coração de Salvador.",
+    "texto_botao": "Agendar horário",
+    "imagem": "assets/uploads/hero.jpg"
+  },
+  "sobre": {
+    "titulo": "Sobre o studio",
+    "texto": "Há mais de 10 anos cuidando da autoestima de nossas clientes com técnicas atualizadas, produtos de qualidade e um atendimento que faz você se sentir em casa.",
+    "imagem": "assets/uploads/sobre.jpg"
+  },
+  "servicos": {
+    "titulo": "Serviços",
+    "lista": [
+      { "nome": "Corte feminino", "descricao": "Corte personalizado para o seu formato de rosto.", "preco": "A partir de R$ 80" },
+      { "nome": "Coloração", "descricao": "Técnicas de mechas, luzes e tonalização.", "preco": "A partir de R$ 150" },
+      { "nome": "Escova e finalização", "descricao": "Escova modeladora com produtos profissionais.", "preco": "A partir de R$ 60" },
+      { "nome": "Tratamento capilar", "descricao": "Hidratação, nutrição e reconstrução.", "preco": "A partir de R$ 120" }
+    ]
+  },
+  "galeria": {
+    "titulo": "Nosso trabalho",
+    "imagens": [
+      "assets/uploads/galeria-1.jpg",
+      "assets/uploads/galeria-2.jpg",
+      "assets/uploads/galeria-3.jpg",
+      "assets/uploads/galeria-4.jpg"
+    ]
+  },
+  "video": {
+    "titulo": "Conheça o studio",
+    "url_youtube": ""
+  },
+  "depoimentos": {
+    "titulo": "O que dizem nossas clientes",
+    "lista": [
+      { "nome": "Ana Paula", "texto": "Saí de lá renovada! Atendimento impecável." },
+      { "nome": "Camila Souza", "texto": "Profissionais super atenciosos, recomendo demais." }
+    ]
+  },
+  "contato": {
+    "titulo": "Venha nos visitar",
+    "endereco": "Rua das Flores, 123 - Salvador, BA",
+    "horario": "Ter a Sáb, 9h às 19h",
+    "telefone": "(71) 99000-0000"
+  }
+}
