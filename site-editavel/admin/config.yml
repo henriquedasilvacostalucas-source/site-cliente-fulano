@@ -2,6 +2,8 @@ backend:
   name: github
   repo: SEU-USUARIO/SEU-REPOSITORIO   # <-- troque pelo usuario/repositorio do GitHub
   branch: main
+  base_url: https://SEU-PROJETO.vercel.app   # <-- troque pela URL que a Vercel te der
+  auth_endpoint: api/auth
 
 # Pasta onde as fotos enviadas pelo cliente sao guardadas dentro do repositorio
 media_folder: "assets/uploads"
