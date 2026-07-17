@@ -53,7 +53,7 @@ function fazerLogin() {
   const esquerda = window.screenX + (window.outerWidth - largura) / 2;
   const topo = window.screenY + (window.outerHeight - altura) / 2.5;
   const popup = window.open(
-    'api/auth',
+    '/api/auth',
     'gh-oauth',
     `width=${largura},height=${altura},left=${esquerda},top=${topo}`
   );
